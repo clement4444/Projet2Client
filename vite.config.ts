@@ -7,4 +7,5 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  base: '/Projet2Client/',  // Ajoutez cette ligne si vous déployez dans un sous-dossier
 });
