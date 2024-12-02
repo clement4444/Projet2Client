@@ -1,0 +1,48 @@
+/* contener de la section */
+.price-room-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* contener du prix de la chambre HT */
+.contenerPrixRoom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-room-card .text-price {
+  font-size: 1.1em;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 2.7em;
+  }
+}
+
+.price-room-card p strong {
+  font-weight: 100;
+  font-size: 1.1em;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 2.7vw;
+  }
+}
+
+/* contener de la tva */
+.contenerTva {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8em;
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 1.5vw;
+  }
+}
+
+.contenerTva p {
+  font-size: 1.1em;
+  font-weight: 100;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 2.7vw;
+  }
+}

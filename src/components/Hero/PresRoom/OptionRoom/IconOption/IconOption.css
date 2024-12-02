@@ -1,0 +1,20 @@
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.iconOption {
+  width: 3em;
+  height: 3em;
+}
+
+.texteOption {
+  display: none;
+
+  @media screen and (min-width: 1024px) {
+    display: inline;
+    font-size: 1.6em;
+    box-sizing: content-box;
+    padding-left: 0.4em;
+  }
+}

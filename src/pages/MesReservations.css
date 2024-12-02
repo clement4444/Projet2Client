@@ -1,0 +1,34 @@
+.mesReservation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.miniCard {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  scale: 0.8;
+}
+
+.bntRetourMesReservation {
+  background-color: #ffbb00;
+  margin-bottom: 3em;
+  font-size: 1.8em;
+  color: black;
+  border-radius: 22px;
+  padding: .3em .7em;
+  border: black 1px solid;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 2.5vw;
+  }
+}
+
+.bntRetourMesReservation:hover {
+  background-color: rgb(53, 185, 53);
+  scale: 1.1;
+  transition: all 0.5s;
+}

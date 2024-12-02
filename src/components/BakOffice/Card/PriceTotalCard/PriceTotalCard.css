@@ -1,0 +1,32 @@
+.price-total-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  padding: 1.5em 1em 1.5em 1em;
+  box-shadow: 0 1.5px 1px rgba(0, 0, 0, 0.3);
+  margin: 1.5em -1em 0 -1em;
+
+  @media screen and (min-width: 1024px) {
+    margin: 3em -3.5em 0 -3.5em;
+    padding: 2.6em 3.5em 2.6em 3.5em;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.total-label strong {
+  font-size: 1.5em;
+  font-weight: 900;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 3.2vw;
+  }
+}
+
+.total-value strong {
+  font-size: 1.5em;
+  font-weight: 900;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 3.2vw;
+  }
+}

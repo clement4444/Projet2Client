@@ -1,0 +1,10 @@
+.roomDescri {
+  font-size: 1em;
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 1.5em;
+    padding: 0 2em 0 1em;
+    margin-top: 1.8em;
+  }
+}

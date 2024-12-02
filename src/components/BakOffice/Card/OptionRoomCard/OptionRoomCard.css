@@ -1,0 +1,22 @@
+.titreOptionRoom {
+  font-size: 1.2em;
+  font-weight: 800;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 2.5vw;
+    margin-top: 1.7vw;
+  }
+}
+
+.contenerOption {
+  margin-top: 0.5em;
+  margin-bottom: .2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4em;
+  text-align: start;
+
+  @media screen and (min-width: 1024px) {
+    margin-top: .5vw;
+  }
+}

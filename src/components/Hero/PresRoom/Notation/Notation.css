@@ -1,0 +1,14 @@
+.roomNotes {
+  font-size: 1.1em;
+  margin-top: 1rem;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 1.4em;
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+}
+
+.roomNotes strong {
+  font-size: 1.5em;
+}

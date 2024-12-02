@@ -1,0 +1,35 @@
+/* le contener */
+.imgConf {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #f7f7f7;
+
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* img */
+.imgConf img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  @media screen and (min-width: 1024px) {
+    max-width: 60%;
+  }
+}
+
+/* texte */
+.descriConf {
+  font-family: krub sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  margin: 6%;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 2em;
+    align-items: center;
+  }
+}

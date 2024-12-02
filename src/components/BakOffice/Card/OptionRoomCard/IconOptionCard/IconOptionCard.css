@@ -1,0 +1,12 @@
+.contenerIcon {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.IconCadre {
+  @media screen and (min-width: 1024px) {
+    font-size: 2.4vw;
+    margin-top: 1vw;
+  }
+}

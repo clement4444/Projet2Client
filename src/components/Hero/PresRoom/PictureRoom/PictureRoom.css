@@ -1,0 +1,23 @@
+.contenerPicture {
+  background-image: url(/images/hero/eurreur404.png);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+
+  @media screen and (min-width: 1024px) {
+    height: 60vh;
+  }
+}
+
+#imageChanbre {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}

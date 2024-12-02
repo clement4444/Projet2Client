@@ -1,0 +1,28 @@
+.nuits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.2em;
+}
+
+.nuits .nbNuitEmoji {
+  font-size: 3em;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 6em;
+  }
+}
+
+.nuits .nbNuit {
+  margin-top: 0.35em;
+  font-size: 1.8em;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 18px;
+  padding: 0.2em 3em 0.2em 0.2em;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 4em;
+    margin-top: .8em;
+  }
+}

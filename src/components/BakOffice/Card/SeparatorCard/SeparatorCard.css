@@ -1,0 +1,8 @@
+.ligneCard {
+  border-top: black 1px solid;
+  margin: 1.5em 0.4em 1.5em 0.4em;
+
+  @media screen and (min-width: 1024px) {
+    margin: 3em .8em 3em .8em;
+  }
+}

@@ -1,0 +1,20 @@
+.bouton-validerReservation {
+  background-color: #ffbb00;
+  border: black 1px solid;
+  color: black;
+  font-size: 1.2em;
+  padding: 1em;
+  border-radius: 18px;
+  transition: all 0.5s;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 2vw;
+    margin-top: 2vw;
+  }
+}
+
+.bouton-validerReservation:hover {
+  background-color: rgb(53, 185, 53);
+  transition: all 0.5s;
+  scale: 1.1;
+}

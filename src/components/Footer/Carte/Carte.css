@@ -1,0 +1,71 @@
+/* toute section carte */
+.carte {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+
+  @media screen and (min-width: 1024px) {
+    width: 35%;
+    padding: 2em 2em 2em 0em;
+  }
+}
+
+/* la carte */
+#map {
+  width: 100%;
+  height: 80vh;
+  border: 2px solid #333;
+  border-radius: 0;
+  z-index: 10;
+
+  @media screen and (min-width: 1024px) {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+}
+
+.mapFullScreenOn {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  z-index: 100;
+  padding: 0;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 300px rgba(0, 0, 0, 0.9);
+}
+
+/* bouton grand écran */
+.mapFullScreen-btn {
+  display: none;
+
+  @media screen and (min-width: 1024px) {
+    display: inline-block;
+    position: absolute;
+    bottom: 5%;
+    right: 7%;
+    transform: translate(-50%, -50%);
+    padding: 4px 8px 2px 8px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 11;
+  }
+}
+
+.mapFullScreen-btn-on {
+  bottom: 1%;
+  right: 1%;
+}
+
+.mapFullScreen-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

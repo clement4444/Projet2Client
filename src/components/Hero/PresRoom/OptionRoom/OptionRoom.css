@@ -1,0 +1,16 @@
+.roomOption {
+  display: flex;
+  gap: 0.6em;
+  margin-top: 1rem;
+  margin-left: 1rem;
+
+  @media screen and (min-width: 1024px) {
+    margin-left: 3rem;
+    border: black 1px solid;
+    padding: 0.2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    width: 50%;
+  }
+}
